@@ -89,7 +89,6 @@ function App() {
   };
 
   const handleCreateData = (newData: any) => {
-    console.log(newData);
     axios
       .post("https://jsonplaceholder.typicode.com/comments", {
         name: newData.name,
@@ -97,7 +96,6 @@ function App() {
         email: newData.name,
       })
       .then((res) => {
-        console.log("SUCCESS", res);
         setAllData([...allData, res.data]);
         setIsModalOpen(true);
       })
