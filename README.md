@@ -1,30 +1,16 @@
-# React + TypeScript + Vite
+# CRUDFunctions
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Welcome to **CRUDFunctions**, a robust application for practicing Create, Read, Update, and Delete (CRUD) operations. Built with React + TypeScript, this project demonstrates efficient data management techniques and user-friendly interfaces.
 
-Currently, two official plugins are available:
+## Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- **Create**: Add new data entries easily.
+- **Read**: Retrieve and display data in a structured format.
+- **Update**: Modify existing data entries with ease.
+- **Delete**: Remove unwanted data entries securely.
+- **TypeScript Integration**: Robust type-checking and improved developer experience.
+- **Responsive Design**: Optimized for all devices, ensuring a seamless experience on desktops, tablets, and mobiles.
 
-## Expanding the ESLint configuration
+## Demo
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
-
-- Configure the top-level `parserOptions` property like this:
-
-```js
-export default {
-  // other rules...
-  parserOptions: {
-    ecmaVersion: 'latest',
-    sourceType: 'module',
-    project: ['./tsconfig.json', './tsconfig.node.json'],
-    tsconfigRootDir: __dirname,
-  },
-}
-```
-
-- Replace `plugin:@typescript-eslint/recommended` to `plugin:@typescript-eslint/recommended-type-checked` or `plugin:@typescript-eslint/strict-type-checked`
-- Optionally add `plugin:@typescript-eslint/stylistic-type-checked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and add `plugin:react/recommended` & `plugin:react/jsx-runtime` to the `extends` list
+Check out the live demo of CRUDFunctions [here](https://Subaiyal-Rehan.github.io/CRUDFunctions).
